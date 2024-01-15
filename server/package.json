@@ -1,0 +1,24 @@
+{
+  "name": "filler-word-remover",
+  "version": "1.0.0",
+  "description": "A web application that analyzes Video/Audio input, identifies and removes filler words (such as umms, uhhs), and minimizes silences and gives an output with the filler words removed. The goal is to enhance the clarity and coherence of spoken communication.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyush Sontakke",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.0.4",
+    "multer": "^1.4.5-lts.1",
+    "wavesurfer.js": "^7.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

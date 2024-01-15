@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+#inputfield::after{
+    display: block;
+    content: 'Drag and Drop here';
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 5%;
+    border-radius: 10px;
+}
